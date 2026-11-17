@@ -3,3 +3,8 @@ spring:
     url: jdbc:postgresql://localhost:5432/movie_reservation
     username: postgres
     password: rohan123
+
+app:
+  jwt:
+    secret: A62Za83cS2cy5vec9/at+cy8waKOIzboGMDFuQCOi/c=
+    expiration-ms: 86400000
